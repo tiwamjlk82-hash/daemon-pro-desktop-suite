@@ -1,0 +1,12 @@
+# Normalize line endings
+vendor/* linguist-vendored
+go.sum linguist-generated
+package-lock.json linguist-generated
+**/*.py linguist-detectable
+node_modules/* linguist-vendored
+Cargo.lock linguist-generated   
+
+*.ico binary
+static/** linguist-vendored
+*.html linguist-vendored
+*.woff2 binary
